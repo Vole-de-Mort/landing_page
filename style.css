@@ -39,6 +39,7 @@ button{
 img{
     height: 220px;
     width: 100%;
+    border-radius: 3%;
 }
 .header1{
     display: flex;
@@ -66,6 +67,10 @@ img{
 }
 h1,p{
     margin: 10px;
+}
+a:hover{
+    text-decoration: underline;
+    color : #17ff51d6;
 }
 
 /* Second section */
@@ -106,4 +111,38 @@ h1,p{
     height: 200px;
     width: 180px;
     border-radius: 8%;
+}
+
+
+/* Quote Section */
+
+.quote-section{
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.content{
+    width: 700px;
+}
+.text{
+    font-size: 36px;
+    color: #1F2937;
+    font-family: light italic;
+    text-align: center;
+    
+}
+.chkn{
+    font-weight: bold;
+    padding-left: 250px;
+
+}
+.footer{
+    background-color: #1F2937;
+    text-align: center;
+    color : #d6dce6ca;
+    font-size: 15px;
+    padding: 20px;
 }
